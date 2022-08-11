@@ -13,3 +13,7 @@ spec:
     repoURL: https://github.com/sspk/argocd-example-apps.git
     targetRevision: master
   project: default 
+  syncPolicy:
+  automated: {}
+  syncOptions:
+    - CreateNamespace=true
