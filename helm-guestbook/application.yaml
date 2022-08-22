@@ -12,6 +12,7 @@ spec:
     path: helm-guestbook
     repoURL: https://github.com/sspk/argocd-example-apps.git
     targetRevision: master
+    helm:
   project: default 
   syncPolicy:
      automated: {}
